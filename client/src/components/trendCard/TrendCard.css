@@ -1,0 +1,14 @@
+.TrendCard{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    background: var(--cardColor);
+    padding: 2rem;
+    border-radius: 1rem;
+}
+.Trends{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+}

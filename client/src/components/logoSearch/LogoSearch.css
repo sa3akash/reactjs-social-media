@@ -1,0 +1,29 @@
+.LogoSearch{
+    display: flex;
+    gap: 0.75rem;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.SearchBox{
+    display: flex;
+    background-color: var(--inputColor);
+    align-items: center;
+    border-radius: 10px;
+    padding: 5px;
+}
+.SearchBox > input{
+    outline: none;
+    border: none;
+    background: transparent;
+}
+.SearchIcon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(106.23deg, #f99827, #f95f35 100%);
+    border-radius: 5px;
+    padding: 4px;
+    color: white;
+    cursor: pointer;
+}

@@ -1,0 +1,25 @@
+.RightSide{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.navIcon{
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.navIcon img{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+.navIcon a{
+    display: flex;
+    align-items: center;
+}
+.right-button{
+    height: 3rem;
+    width: 80%;
+    align-self: center;
+}

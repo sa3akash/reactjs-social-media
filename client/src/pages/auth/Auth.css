@@ -1,0 +1,87 @@
+.Auth{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    gap: 4rem;
+    position: relative;
+}
+.Auth > div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.A_Left{
+    gap: 2rem;
+}
+.A_Left img{
+    width: 4rem;
+    height: 4rem;
+    object-fit: contain;
+}
+.Webname > h1{
+    font-size: 3rem;
+    background: red;
+    background-image: var(--buttonBg);
+    background-size: 100%;
+    background-repeat: repeat;
+    -webkit-background-clip:text;
+    -moz-background-clip:text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+.Webname > h6{
+    font-size: 0.85rem;
+}
+.signupForm{
+    background: var(--cardColor);
+    padding: 1rem;
+    border-radius: 1rem;
+}
+.signupForm h3{
+    text-align: center;
+    margin: 1rem;
+}
+.inputWrapper{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.inputWrapper input{
+    outline: none;
+    border: none;
+    background-color: var(--inputColor);
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px;
+    width: 100%;
+}
+.A_btnContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px;
+    gap: 40px;
+}
+.A_btnContainer span{
+    font-size: 12px;
+}
+.A_Submit{
+    width: 6rem;
+    height: 2rem;
+}
+.A_btnContainer span:hover{
+    color: black;
+    text-decoration: underline;
+}
+
+.conform_passwordError{
+    font-size: 14px;
+    color: red;
+}
+
+@media (max-width: 900px) {
+    .Auth{
+        flex-direction: column;
+    }
+}
